@@ -1,0 +1,16 @@
+{
+    "name": "newlifeclan/sayhello",
+    "license": "MIT",
+    "type": "library",
+    "description": "Say Hello bundle",
+    "autoload": {
+        "psr-0": {
+            "Newlifeclan\\HelloBundle": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "3.1.*"
+    },
+    "minimum-stability": "stable"
+}

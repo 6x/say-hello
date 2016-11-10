@@ -1,0 +1,3 @@
+services:
+    newlifeclan_hello.util.hello:         #newlifeclan_hello must match DependencyInjection/Configuration.php line $treeBuilder->root('xxxxxxxx');
+        class: Newlifeclan\HelloBundle\Util\Hello
